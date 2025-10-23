@@ -1,7 +1,7 @@
 # Discord Rich Presence (Windows) — Privacy‑Aware
 
 This Windows script updates your Discord status with **what you're doing** while allowing you to block out certain activities (think banking, budget, work files).   
-It looks only at your **active window title**, masks anything that matches the sensitive words you input into the .py file, and then publishes a **friendly label** (e.g., `Working in Excel`, `Browsing example.com`, or `Working — details hidden`).
+It looks only at your active window title, masks anything that matches the sensitive words you set in your `.env` file, and then publishes a friendly label (for example, “Working in Excel” or “Browsing example.com”).
 
 > **Privacy first:** The script never sends raw window titles to Discord — only the short label it derives locally.
 
